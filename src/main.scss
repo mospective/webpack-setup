@@ -1,0 +1,17 @@
+body {
+    background-color: #009fda;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    h1 {
+        color: #ffffff;
+    }
+    .test {
+        display: flex;
+        justify-content: center;
+       
+        img {
+            max-width: 100%;
+        }
+    }
+}

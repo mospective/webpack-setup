@@ -1,0 +1,44 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "New webpack setup",
+  "main": "index.js",
+  "browserslist": [
+    "> 0.3%",
+    "last 7 versions",
+    "Android >= 4",
+    "Firefox >= 20",
+    "iOS >= 8",
+    "ie > 9"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devOp": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Mohammed M Rahman (Mospective)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-loader": "^3.0.0"
+  }
+}
