@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: 'Nasalization Rg';
+    src: url('fonts/NasalizationRg-Regular.eot');
+    src: url('fonts/NasalizationRg-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NasalizationRg-Regular.woff2') format('woff2'),
+        url('fonts/NasalizationRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font: 'Nasalization Rg';
+
 body {
     background-color: #009fda;
     display: grid;
@@ -5,6 +18,7 @@ body {
 
     h1 {
         color: #ffffff;
+        font-family: $font;
     }
     .test {
         display: flex;
